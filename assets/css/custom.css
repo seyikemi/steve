@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 .page-header {
   /*background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(0, 0, 0, 0.12));*/
-  background: linear-gradient(#00000000, #00000000), url(../img/steven-bg.png);
+  background: linear-gradient(#00000000, #00000000), url(../img/stephen-bg.png);
 }
 
 .no-margin {
@@ -493,7 +493,7 @@ output {
 }
 
 .bg-image {
-  background-image: url('../img/steven-bg.png');
+  background-image: url('../img/stephen-bg.png');
   background-size: cover;
   background-position: center center;
 }
@@ -563,7 +563,7 @@ output {
 }
 
 .bg-overlay {
-  background: linear-gradient(#000000b3, #000000b3), url(../img/steven-bg.png);
+  background: linear-gradient(#000000b3, #000000b3), url(../img/stephen-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -681,7 +681,7 @@ output {
 .actions{
   margin-top: 30px;
 }
-.btn-steven{
+.btn-stephen{
   background-color: white;
   color: #035A92;
 }
@@ -701,7 +701,7 @@ output {
   color: white;
   margin-top: 150px;
 }
-.steven-skills{
+.stephen-skills{
   padding-top: 50px;
 }
 .skill-item-text{

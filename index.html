@@ -6,7 +6,7 @@
     <!-- <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon.svg"> -->
     <!-- <link rel="icon" type="image/png" href="./assets/img/favicon.png"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Steven</title>
+    <title>Stephen</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'
     />
 
@@ -22,7 +22,7 @@
     <link href="./assets/css/demo.css" rel="stylesheet" />
     <link href="./assets/css/custom.css" rel="stylesheet" />
 
-    <link href="assets/img/steven-logo.png" rel="shortcut icon">
+    <link href="assets/img/stephen-logo.png" rel="shortcut icon">
 
 
     <!-- Scroll -->
@@ -50,27 +50,27 @@
             <div class="collapse navbar-collapse justify-content-center" id="navigation">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#home">
+                        <a class="nav-link page-scroll" onclick='history.pushState({}, "Stephen", "#home")' href="#home">
                             <p>Home</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about" style="font-size: 14px;">
+                        <a class="nav-link page-scroll" onclick='history.pushState({}, "Stephen", "#about")' href="#about" style="font-size: 14px;">
                             About me
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#portfolio" style="font-size: 14px;">
+                        <a class="nav-link page-scroll" onclick='history.pushState({}, "Stephen", "#portfolio")' href="#portfolio" style="font-size: 14px;">
                             Portfolio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact" style="font-size: 14px;">
+                        <a class="nav-link page-scroll" onclick='history.pushState({}, "Stephen", "#contact")' href="#contact" style="font-size: 14px;">
                             Contact me
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#blog" style="font-size: 14px;">
+                        <a class="nav-link page-scroll" onclick='history.pushState({}, "Stephen", "#blog")' href="#blog" style="font-size: 14px;">
                             Blog
                         </a>
                     </li>
@@ -86,14 +86,14 @@
             </div>
             <div class="container">
                 <div class="content-center brand text-center">
-                    <img class="steve-logo" src="assets/img/steven-logo.png" class="img-fluid mb-20" alt="">
+                    <img class="steve-logo" src="assets/img/stephen-logo.png" class="img-fluid mb-20" alt="">
                     <p class="text-white prev-tex" style="margin: 0 auto;">Welcome! I'm</p>
                     <h1 class="h1-seo no-margin text-white head-q">STEPHEN AFAMO</h1>
                                 <p class="text-white prev-tex" style="margin: 0 auto;
                     max-width: 600px;">Head of Developer Relations at Africa's Talking Nigeria </p>
                     <div class="actions">
-                        <a href="#portfolio" class="btn btn-white btn-steven page-scroll">MY WORK</a>
-                        <a href="#contact" class="btn btn-simple btn-contact page-scroll">CONTACT ME</a>
+                        <a onclick='history.pushState({}, "Stephen", "#portfolio")' href="#portfolio" class="btn btn-white btn-stephen page-scroll">MY WORK</a>
+                        <a onclick='history.pushState({}, "Stephen", "#contact")' href="#contact" class="btn btn-simple btn-contact page-scroll">CONTACT ME</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
             <div class="container" id="about" style="padding-top: 50px;">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/img/steven-avatar.png" class="img-fluid" alt="">
+                        <img src="assets/img/stephen-avatar.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-6">
                         <h3>About Me</h3>
@@ -131,7 +131,7 @@
                 </div>
 
                 <!-- Skills -->
-                <div class="steven-skills">
+                <div class="stephen-skills">
                     <h3>Skills</h3>
                     <div class="row">
                         <div class="col-md-4" v-for="skill in skills">
@@ -230,7 +230,7 @@
                         <p>{{blog.date_gmt | moment}}</p>
                         <h4 class="mt-0">{{blog.title.rendered}}</h4>
                         <p v-html="blog.excerpt.rendered"></p>
-                        <a :href="blog.link" target="_blank" class="btn btn-white btn-steven">READ MORE</a>
+                        <a :href="blog.link" target="_blank" class="btn btn-white btn-stephen">READ MORE</a>
                     </div>
                 </div>
                     <h5 class = "text-right pt-4 mb-3"><a  style = "color:white!important" href = "https://stephenafamo.com/blog/">Go to Blog <i class = "fa fa-arrow-right"></i></a> </h5>
